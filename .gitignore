@@ -1,0 +1,57 @@
+
+---
+
+# 2️⃣ `.gitignore` recommandé
+
+Crée un fichier `.gitignore` à la racine du projet :
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Jupyter
+.ipynb_checkpoints
+
+# Docker
+*.pid
+
+# Database
+*.db
+*.sqlite
+
+# Environment variables
+.env
+
+# Cache
+.cache/
+
+# Coverage
+.coverage
+htmlcov/
