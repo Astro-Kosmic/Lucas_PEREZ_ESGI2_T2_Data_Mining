@@ -28,25 +28,42 @@ pour la **construction d'équipes en format compétitif (VGC)**.
 
 # Architecture du projet
 
-    pokeapi_project/
-    │
-    ├── import_pokeapi_full.py
-    ├── execute_python.bash
-    │
-    ├── graph_generation.py
-    ├── graph_pokemon_by_type.py
-    ├── graph_moves_by_type.py
-    ├── graph_avg_power_scatter.py
-    ├── graph_move_power_boxplot.py
-    ├── graph_moves_by_type_pie.py
-    ├── graph_type_combinations.py
-    │
-    ├── mld.sql
-    ├── poke_db.sql
-    │
-    ├── venv/
-    │
-    └── graphs/
+TP2/
+│
+├── README.md
+│
+├── architecture/
+│   └── archi.md                # Description de l'architecture du projet
+│
+├── database/
+│   ├── MCD.pdf                 # Modèle conceptuel de données
+│   ├── mld.png                 # Modèle logique de données
+│   ├── mld.sql                 # Script SQL du modèle logique
+│   ├── poke_db.sql             # Création de la base et des tables
+│   ├── simple_requests.sql     # Requêtes SQL de test
+│   └── view_creation.sql       # Création des vues analytiques
+│
+├── docs/
+│   └── presentation_canva.pdf  # Présentation du projet
+│
+├── images/
+│   └── docs_pokeapi.png        # Documentation PokéAPI utilisée
+│
+├── scripts/
+│   ├── scrapping/              # Scripts d'extraction depuis l'API
+│   │
+│   └── view_creation/          # Scripts Python générant les graphiques
+│
+├── views/
+│   ├── avg_power_scatter.png
+│   ├── mono_vs_double_type.png
+│   ├── move_power_boxplot.png
+│   ├── moves_by_type_pie.png
+│   ├── moves_par_type.png
+│   ├── pokemon_par_generation.png
+│   ├── pokemon_par_type.png
+│   ├── top_pokemon_moves.png
+│   └── type_combinations.png
 
 ------------------------------------------------------------------------
 
