@@ -27,7 +27,7 @@ pour la **construction d'équipes en format compétitif (VGC)**.
 ------------------------------------------------------------------------
 
 # Architecture du projet
-
+```bash 
 TP2/
 │
 ├── README.md
@@ -64,6 +64,7 @@ TP2/
 │   ├── pokemon_par_type.png
 │   ├── top_pokemon_moves.png
 │   └── type_combinations.png
+```
 
 ------------------------------------------------------------------------
 
